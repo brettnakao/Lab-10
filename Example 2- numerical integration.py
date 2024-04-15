@@ -25,8 +25,8 @@ for i in range(upper_limit.size):
 # Plot the results
 plt.figure()
 plt.plot(upper_limit, exp_integral)
-plt.xlable('x')
-plt.ylable('integral')
+plt.xlabel('x')
+plt.ylabel('integral')
 plt.title('Integral of g(x)')
 
 # Evaluate infinite limits
