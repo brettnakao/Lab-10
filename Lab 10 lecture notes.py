@@ -26,7 +26,7 @@ print(fsolve(f, -1))
 
 # Function with a singularity
 def f(x): return 1/(x-1)
-print(fsolve(f, 2, full_output=True))
+print(fsolve(f, 2, full_output = True))
 
 # Coefficients of the polynomial x^4 + x - 1
 coefficients = [1, 0, 0, 1, -1]
